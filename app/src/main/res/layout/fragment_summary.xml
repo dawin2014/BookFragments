@@ -1,0 +1,105 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chalmers.bookfragments.SummaryFragment"
+    android:stretchColumns="1"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableRow>
+        <TextView
+            android:id="@+id/totalcost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Total Cost" />
+
+        <TextView
+            android:id="@+id/totalcost_Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="right"
+            android:text="Total Cost"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/most_expensive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Most Expensive" />
+
+        <TextView
+            android:id="@+id/mostexpensive_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="right"
+            android:text="Most Expensive"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/least_expensive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Least Expensive Item" />
+
+        <TextView
+            android:id="@+id/leastexpensive_Value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="right"
+            android:text="Least Expensive"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/average_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Average Price" />
+
+        <TextView
+            android:id="@+id/avg_priceValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="right"
+            android:text="Average Price"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    </TableRow>
+
+</TableLayout>
